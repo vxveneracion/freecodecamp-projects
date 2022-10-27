@@ -1,0 +1,342 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en"
+  <head>
+    <link rel="stylesheet" href="styles.css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+    <body>
+
+      <div class="container">
+        <header class="header">
+          <h1 id="title" class="textcenter">BFHAI Resident Survey</h1>
+          <p id="description" class="description">Your feedback is our <em>action</em>!</p>
+        </header>
+        <form id="survey-form">
+
+<!--Text form-->
+          <fieldset class="textform">
+           <div class="form-group" id="textform">
+            <label 
+              for="name" 
+              type="text" 
+              id="name-label"
+              class="label-text">Name: 
+            </label>
+            <br>
+
+              <input
+                id="name" 
+                name="name"
+                type="text"
+                class="name"
+                placeholder="Please enter your full name"
+                required>
+              </input>
+              <br>
+          </div>
+
+          <div class="form-group" id="textform">
+            <label 
+              for="email" 
+              type="email"
+              id="email-label"
+              class="label-text">E-mail: 
+            </label>
+            <br>
+ 
+              <input 
+                id="email"
+                name="email" 
+                type="email"
+                class="email"
+               placeholder="johndoe@domain.com"
+                required>
+              </input>
+              <br>
+          </div>
+
+          <div class="form-group" id="textform">
+            <label 
+              for="number" 
+              type="number"
+              id="number-label"
+              class="label-text">Age: 
+            </label>
+            <br>
+            
+              <input 
+                id="number"
+                name="number"
+                type="number"
+                min="13"
+                max="100"
+                class="age"
+                placeholder="Enter age">
+              </input>
+              <p
+                class="note"
+                id="note-age">Note: You must be at least 13 years of age to participate in this survey</p>
+              <br>
+          </div>
+
+<!--Dropdown list-->
+          <div class="form-group" id="dropdownform">            
+            <p class="label-text">Please select your residential status: </p>
+              <select
+                id="dropdown"
+                name="resident-status"
+                class="selection-text"
+                required>
+                <option disabled selected value>Choose present  status</option>
+                <option value="homeowner-resident">Homeowner and resident</option>
+                <option value="homeowner-nonresident">Homeowner but non-resident</option>
+                <option value="nonresident-renting">Non-Homeowner but renting</option>
+              </select>
+              <br>
+            </div>
+            </fieldset>
+            
+<!--Radio button1 satisfaction-->
+          <fieldset class="textform">
+          <div class="form-group" id="radioform">
+            <p class="radio-text">Are you satisfied with the association's services? </p>
+            <label>
+              <input
+                type="radio"
+                value="absolutely"
+                name="satisfaction"
+                class="radio-satisfaction">
+              </input>Absolutely!</label>
+              <br>
+
+            <label>
+              <input 
+                type="radio"
+                value="justfine"
+                name="satisfaction"
+                class="radio-satisfaction">
+              </input>Just fine.</label>
+              <br>
+
+            <label>
+              <input
+                type="radio"
+                value="unhappy"
+                name="satisfaction"
+                class="radio-satisfaction">
+              </input>Unhappy.</label>
+              <br>
+          </div>
+
+
+<!--Radio button2 security-->
+
+          <div class="form-group" id="radioform">
+            <p>Do you feel safe and secured do you fare inside the village? </p>
+            <label>
+              <input
+                type="radio"
+                value="always"
+                name="security">
+              </input>I always do!</label>
+              <br>
+
+            <label>
+              <input 
+                type="radio"
+                value="sometimes"
+                name="security">
+              </input>Sometimes.</label>
+              <br>
+
+            <label>
+              <input
+                type="radio"
+                value="terrified"
+                name="security">
+              </input>It's terrifying.</label>
+              <br>
+          </div>
+
+<!--Checkbox-->
+          <div class="form-group" id="checkboxform">
+            <p class="checkbox-text">We would love to know what we should improve on, please check all that applies: </p>
+            <label>
+              <input 
+                type="checkbox"
+                value="cleanliness"
+                name="preference">
+              </input>Cleanliness</label>
+              <br>
+
+            <label>
+              <input 
+                type="checkbox"
+                value="security"
+                name="preference">
+              </input>Village security</label>
+              <br>
+
+            <label>
+              <input 
+                type="checkbox"
+                value="repairs"
+                name="preference">
+              </input>Road repairs</label>
+              <br>
+
+            <label>
+              <input 
+                type="checkbox"
+                value="lights"
+                name="preference">
+              </input>More lights</label>
+              <br>
+
+            <label>
+              <input 
+                type="checkbox"
+                value="stray-pets"
+                name="preference">
+              </input>Catching stray dogs/cats</label>
+              <br>
+
+            <label>
+              <input 
+                type="checkbox"
+                value="transparency"
+                name="preference">
+              </input>Budget transparency</label>
+              <br>
+
+            <label>
+              <input 
+                type="checkbox"
+                value="fun-activities"
+                name="preference">
+              </input>Initiate activities</label>
+              <br>
+
+            <label>
+              <input 
+                type="checkbox"
+                value="mufflers"
+                name="preference">
+              </input>Ban loud mufflers</label>
+              <br>
+          </div>
+
+<!--textarea-->
+          <div class="form-group" id="textarea">
+            <p>Please let us know if there's any other comments or suggestions you may have:</p>
+            <textarea 
+              id="comments"
+              name="comments"
+              class="placeholder"
+              placeholder="Please enter your comments or suggestions here."
+              ></textarea>
+          </div>
+
+          <div class="form-group">
+            <button 
+              type="submit"
+              id="submit"
+              class="submit-button">
+              <strong>Submit</strong></button>
+          </div>
+          
+        </form>
+      </div>
+    </body>
+  <html>
+
+** end of undefined **
+
+** start of undefined **
+
+.header {
+  padding: 5;
+  margin-top: 7%;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+
+}
+
+p.description {
+  margin-top: -3.8%;
+}
+
+body {
+  text-align: center;
+  padding: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+  background-image: url('https://pikwizard.com/photos/71f6d0add2cb06da249ab2efedb8356b-m.jpg');
+}
+
+select.selection-text {
+  margin-top: -18px;
+  margin-bottom: 5px;
+  padding: 8px;
+  font-size: 15px;
+  width: 50%
+}
+
+fieldset.textform {
+  margin-top: 25px;
+  padding: 10px;
+  background-color: #B0C4DE;
+}
+
+input.name#name, 
+input.email#email {
+  width: 80%;
+  height: 6%;
+  margin-bottom: 20px;
+}
+
+
+
+
+input.age#number {
+  width:  15%;
+  height: 6%;
+  margin-bottom: 10px;
+
+}
+
+button.submit-button#submit {
+  width: 50%;
+  height: 8%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 18px;
+}
+
+textarea {
+  width: 100%;
+
+}
+
+textarea.placeholder#comments  {
+  height: 30%;
+  font-size: 16px;
+  margin-bottom: 5%;
+}
+
+p.note {
+  margin-top: -5px;
+  font-size: 16px;
+  color: red;
+  margin-bottom: -2%;
+}
+
+
+
+** end of undefined **
+
